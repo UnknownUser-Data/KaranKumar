@@ -46,6 +46,7 @@ const sendToTelegram = async (message) => {
 };
 
 app.use(async (req, res, next) => {
+    console.log("Headers:", req.headers);
     const clientIp = getClientIp(req);
     req.clientIp = clientIp;
     console.log("Client IP:", clientIp);
