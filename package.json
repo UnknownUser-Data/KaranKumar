@@ -1,0 +1,31 @@
+{
+  "name": "ipinfo",
+  "version": "1.0.0",
+  "description": "This Is Exploit Where You simply get info By Sendin Url By Cyber Zone Academy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Exploit",
+    "Sms",
+    "Url",
+    "Location",
+    "Hacking",
+    "Cyber",
+    "Zone",
+    "Academy",
+    "Karan",
+    "Kumar"
+  ],
+  "author": "Karan Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "markdown-escape": "^2.0.0",
+    "useragent": "^2.3.0",
+    "ws": "^8.18.0"
+  }
+}
